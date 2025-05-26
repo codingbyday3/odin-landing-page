@@ -29,3 +29,47 @@ header div{
   font-size: 12px;
 }
 
+main{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.first-section{
+  background-color: #1F2937;
+  color: #E5E7EB;
+  padding: 60px;
+  display: flex;
+  gap: 10px;
+}
+
+.first-section .heading{
+  font-size: 48px;
+  font-weight: 900;
+  color: #F9FAF8;
+}
+
+.first-section div{
+  flex: 1;
+}
+
+.first-section .placeholder{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #979797;
+}
+
+.heading-container button{
+  background-color: #3882F6;
+  color: #E5E7EB;
+  border: none ;
+  padding: 5px 20px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+footer{
+  padding: 20px;
+}
+
